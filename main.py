@@ -3,6 +3,6 @@ text = """Jjofhdoh osihdfoph"
       " ff hudf sf isdfg "
       "isdfifd"""
 
-print(text)
+print(text.title())  # Börjar varje ord med stor bokstav
 print("*" * 35)
-print(text[::-1])
+print(text[::-1].title())  # Vänder på string
