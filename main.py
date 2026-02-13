@@ -25,4 +25,8 @@ name = "MOA-LI"
 word = "DUKTIG"
 print(f"{name.capitalize()} är {word.lower()}!!!")
 
-print( )
+miles = 1.609
+name = input("Enter your name: ")
+distance = int(input("Enter distance in km: "))
+in_miles = round(distance * miles, 2)
+print(f"Hello {name.capitalize()}! Distance: {distance}km and {in_miles} miles.")
