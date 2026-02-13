@@ -6,4 +6,3 @@ text = """Jjofhdoh osihdfoph"
 print(text)
 print("*" * 35)
 print(text[::-1])
-#
