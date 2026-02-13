@@ -25,5 +25,7 @@ cars = ["Kia Sportage", "Scoda Octavia", "Hyundai", "Mazda 626"]
 print(cars)
 cars.clear()
 print(cars)
-del cars
-#print(cars)
+del friends[2]
+print(friends)
+new_friends = friends.copy() # friends[:], list(friends)
+print(new_friends)
