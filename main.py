@@ -24,3 +24,5 @@ print("Hi" not in text)
 name = "MOA-LI"
 word = "DUKTIG"
 print(f"{name.capitalize()} är {word.lower()}!!!")
+
+print( )
