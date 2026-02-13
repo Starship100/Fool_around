@@ -7,6 +7,8 @@ print(text.title())  # Börjar varje ord med stor bokstav
 print("*" * 35)
 print(text[::-1].title())  # Vänder på string
 
+print("*" * 35)
+
 text = "Hej you!"
 print(text.find("y"))
 print(text.replace("y", "g"))
@@ -21,9 +23,13 @@ print("you" in text)
 print("you" not in text)
 print("Hi" not in text)
 
+print("*" * 35)
+
 name = "MOA-LI"
 word = "DUKTIG"
 print(f"{name.capitalize()} är {word.lower()}!!!")
+
+print("*" * 35)
 
 miles = 1.609
 name = input("Enter your name: ")
