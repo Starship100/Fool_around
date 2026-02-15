@@ -2,9 +2,18 @@
 msg = "Welcome to Python 101: Split and Join"
 csv = "Eric, John, Michael, Terry, Graham"
 friends_list = ["Eric", "John", "Michael", "Terry", "Graham"]
-print(list(msg.split() ))
-print(csv.split(";"))
-print("".join(csv))
+print(list(msg))  # Skapar lista med alla bokstäver
+print(msg.split())  #Skapar lista med alla ord
 
-csv = "Eric, John, Michael, Terry, Graham"
-friends_list = ["Eric", "John", "Michael", "Terry", "Graham"]
+print(csv.split())
+print(csv.split(","))  # Tar bort kommatecknet när den skapar listan
+
+print(",".join(friends_list + csv.split(",") + msg.split()))
+print("><".join(friends_list + csv.split(",") + msg.split()))
+
+print(msg.replace(" ", ""))
+print(msg.replace("e", "i"))
+
+
+
+
