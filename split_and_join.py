@@ -14,6 +14,9 @@ print("><".join(friends_list + csv.split(",") + msg.split()))
 print(msg.replace(" ", ""))
 print(msg.replace("e", "i"))
 
-
+csv = "Eric, John, Michael, Terry, Graham:TerryG;Brian"
+print(",".join(csv.split("," and ":" and ";")).split(",")) # Funkar bara att använda ett 'and'
+# print(",".join(csv.split(",")).split(":").split(";"))
+print(csv.replace(";", ",").replace(":",",").split(","))
 
 
