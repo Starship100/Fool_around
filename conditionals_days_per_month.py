@@ -44,7 +44,6 @@ def num_days(month):
 num_days("Jan")
 
 """" # scrimba solution
-
 def num_days(month):
     days = 31
     if month in {'apr', 'jun', 'sep', 'nov'}:
