@@ -26,11 +26,14 @@ def num_days(month):
 # optimize/shorten the code in the function
 # try to reduce the number of conditionals
 def num_days(month):
+    x = month
+    month = month.lower()
+
     days_31 = ("jan", "mar", "maj", "juli", "aug", "okt", "dec")
     days_30 = ("apr", "jun", "sep", "nov")
     days_28 = "feb"
     if month in days_31:
-        print(f"Number of days in {month} is 31")
+        print(f"Number of days in {x} is 31")
 
     elif month in days_30:
         print(f"Number of days in {month} is 30")
@@ -41,7 +44,7 @@ def num_days(month):
     else:
         print("Input Error")
 
-num_days("Jan")
+num_days("jan")
 
 """" # scrimba solution
 def num_days(month):
